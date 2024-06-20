@@ -1,5 +1,5 @@
-principle = int(input("enter the principle:"))
-rate = int(input("enter the rate:"))
-time = int(input("enter the time:"))
-ci = (principle*rate*time)/100
-print("compound intrest = ",ci)
+principal=int(input("enter principal amount"))
+rate=float(input("rate of interest"))
+time=int(input("time period"))
+ci=(principal*rate*time)/100
+print("compound interest=",ci)
