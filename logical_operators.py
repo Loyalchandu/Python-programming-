@@ -1,0 +1,5 @@
+a = int(input("enter the value of A: "))
+b = int(input("enter the value of B: "))
+print(a < b and b == 3)
+print(a < b or b == 3)
+print(not(a))
