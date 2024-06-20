@@ -1,5 +1,5 @@
 import mysql.connector
-mydb = mysql.connector.connect(host="localhost",user="root",password="trisha@123",database="mydb")
+mydb = mysql.connector.connect(host="localhost",user="root",password="75694590094",database="mydb")
 mycurs = mydb.cursor()
 print(mycurs)
 
@@ -7,7 +7,6 @@ print(mycurs)
 #mycurs.execute("SHOW DATABASES")
 #mycurs.execute("create table users(name varchar(50),email varchar(50),password varchar(50))")
 #sql="insert into users (name,email,password) values(%s,%s,%s)"
-#val=("trisha","trishareddyporalla@gmail.com","trisha@123")
 
 #mycurs.execute(sql,val)
 #mycurs.execute("show tables");
